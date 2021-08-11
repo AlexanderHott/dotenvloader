@@ -46,8 +46,8 @@ class ConfigMeta(type):
 class Config(metaclass=ConfigMeta):
     """Class for accessing environment variables on the machine or .env file.
     Examples:
-    `Secrets.TOKEN`
-    `Secrets["TOKEN"]`
+    `Config.API_TOKEN`
+    `Config["API_TOKEN"]`
     """
 
     pass
