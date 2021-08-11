@@ -5,6 +5,8 @@ from pathlib import Path
 
 import dotenv  # pip install python-dotenv
 
+dotenv.load_dotenv()
+
 
 class ConfigMeta(type):
     """Metaclass for extracting and typing environment variables"""
